@@ -6,6 +6,7 @@
 	"engines": {
 		"vscode": "^1.49.0"
 	},
+	"publisher": "Hidden",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/endaye/vscode-plugin-test-01.git"
@@ -18,12 +19,10 @@
 	],
 	"main": "./out/extension.js",
 	"contributes": {
-		"commands": [
-			{
-				"command": "vscode-plugin-test-01.helloWorld",
-				"title": "Hello World"
-			}
-		]
+		"commands": [{
+			"command": "vscode-plugin-test-01.helloWorld",
+			"title": "Hello World"
+		}]
 	},
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
